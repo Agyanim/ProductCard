@@ -36,12 +36,6 @@ body {
     border-radius: 10px 0 0 10px;
 
 }
-/* .productImage img{
-    width: 100%;
-    border-radius: 20px 0 0 20px;
-
-    height: 60%;
-} */
 .productDetails{
     width: 300px;
     padding: 1em 2em;
@@ -55,7 +49,7 @@ body {
 .productDetails h1{
     font-family: 'Fraunces', serif;
     margin-top: 1em;
-    font-size: 1.9em;
+    font-size: 2em;
     font-weight: 700;
 }
 .productDetails p{
@@ -67,13 +61,10 @@ body {
 #perfume{
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.5);
-    /* font-weight: bold; */
-
 
 }
 .priceTag{
     display: flex;
-    margin-top: 5px;
 
 }
 .priceTag h1{
@@ -84,9 +75,8 @@ body {
 .priceTag p{
     padding-left: 1.5em;
     font-size: 12px;
-    line-height: 30px;
+    line-height: 40px;
     padding-top: 1em;
-    /* text-decoration: line-through; */
 
 }
 .cart {
@@ -123,9 +113,6 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 10px 10px 0 0px;
-
-    
-
     }
     .productDetails{
         border-radius: 0 0 10px 10px;
