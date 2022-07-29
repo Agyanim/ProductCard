@@ -28,28 +28,31 @@ body {
     border-radius: 20px 20px;
 }
 .productImage{
+    position: relative;
+    width: 20em;
+    height: 28em;
     background-color: aliceblue;
     background-image: url(../images/image-product-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 300px;
     border-radius: 10px 0 0 10px;
 
 }
 .productDetails{
-    width: 300px;
+    position: relative;
+    width: 20em;
     padding: 1em 2em;
     background-color: var(--White);
     border-radius: 0 10px 10px 0;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 28em;
 
 }
 .productDetails h1{
     font-family: 'Fraunces', serif;
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: 700;
 }
 .productDetails p{
@@ -61,10 +64,10 @@ body {
 #perfume{
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.5);
-
 }
 .priceTag{
     display: flex;
+    margin-top: 5px;
 
 }
 .priceTag h1{
@@ -75,9 +78,8 @@ body {
 .priceTag p{
     padding-left: 1.5em;
     font-size: 12px;
-    line-height: 40px;
+    line-height: 30px;
     padding-top: 1em;
-
 }
 .cart {
     text-align: center;
@@ -86,9 +88,6 @@ body {
     padding: 10px 0px;
     border: none;
     border-radius: 4px;
-}
-.cart img{
-    width: 1em;
 }
 .cart a{
     font-size: 10px;
@@ -99,15 +98,18 @@ body {
 #addToCart{
     padding-left: 5px;
 }
+.attribution a{
+    color: var(--DarkCyan);
+}
 
 @media only screen and (max-width:700px) {
     .container{
         flex-direction: column;
-    width: 80vw;
+    width: 85vw;
     }
     .productImage{
-        width: 300px;
-        height: 200px;
+        width: 20em;
+        height: 15em;
         background-color: aliceblue;
         background-image: url(../images/image-product-mobile.jpg);
         background-repeat: no-repeat;
@@ -117,5 +119,7 @@ body {
     .productDetails{
         border-radius: 0 0 10px 10px;
     }
-    
+}
+.priceTag p{
+    line-height: 2.5rem;
 }
